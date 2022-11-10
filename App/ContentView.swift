@@ -1,41 +1,52 @@
 //
 //  ContentView.swift
-//  Uganda
+//  AmericanShop
 //
-//  Created by Kato Steven Mubiru on 31/10/2022.
+//  Created by Kato Steven Mubiru on 07/11/2022.
 //
 
 import SwiftUI
 
 struct ContentView: View {
     
-    let animals : [Animal] = Bundle.main.decode("animals.json")
+    
     
     var body: some View {
        
-        NavigationView{
-            
-            List{
+        ZStack {
+            VStack(spacing : 0) {
                 
-                CoverImageView()
-                    .frame(height: 300)
-                    .listRowInsets(EdgeInsets(top: 0, leading: 0, bottom: 0, trailing: 0))
-                
-                ForEach(animals) { animal in
+                NavigationBar()
+                    .padding()
+                    .background(Color.white)
+                    .padding(.top, UIApplication.shared.windows.first?.safeAreaInsets.top)
                     
-                    NavigationLink(destination: AnimalDetailView(animal: animal)) {
+                ScrollView(.vertical, showsIndicators: false, content: {
+                    VStack(spacing: 0) {
                         
-                        AnimalListView(animal: animal)
-                    }// end of the navigation view
+                        PlayerTabView()
+                            .padding(.vertical, 20)
+                            .frame(width: 400, height:400, alignment: .center)
+                        
+                        CategoryGrid()
+               
                     
-                }
+                        
+                        FooterView()
+                            .padding(.horizontal)
+                    }// end of Vstack
+                    
+                })// end of ScrollView
                 
                 
                 
-            }// end of list
-            .navigationBarTitle("UGANDA", displayMode: .large)
-            
-        }// end of navigationView
+                
+                
+                
+            }// end of Vstack
+            .background(colorBackground.ignoresSafeArea(.all , edges: .all))
+        }// end of Zstack
+        .ignoresSafeArea(.all, edges: .top)
     }
 }
 
