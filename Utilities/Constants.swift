@@ -8,6 +8,8 @@
 import SwiftUI
 import UIKit
 
+let productDecoded: [products] = Bundle.main.decode("product.json")
+
 let categories:[CategoryModel] = Bundle.main.decode("category.json")// category data
 
 let players: [playerModel] = Bundle.main.decode("player.json")// player image data

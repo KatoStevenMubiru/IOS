@@ -29,9 +29,17 @@ struct ContentView: View {
                             .frame(width: 400, height:400, alignment: .center)
                         
                         CategoryGrid()
-               
-                    
                         
+                        TitleView(title: "Helmets")
+                            .foregroundColor(.blue)
+               
+                        LazyVGrid(columns: grid, spacing: 15 , content: {
+                            
+                           
+                            
+                            
+                        })
+                 
                         FooterView()
                             .padding(.horizontal)
                     }// end of Vstack
