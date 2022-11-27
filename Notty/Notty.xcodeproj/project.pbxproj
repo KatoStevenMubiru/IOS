@@ -1,0 +1,475 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		941759962931C0BE0038621C /* Notty Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 941759952931C0BE0038621C /* Notty Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		9417599B2931C0BE0038621C /* NottyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9417599A2931C0BE0038621C /* NottyApp.swift */; };
+		9417599D2931C0BE0038621C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9417599C2931C0BE0038621C /* ContentView.swift */; };
+		9417599F2931C0C00038621C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9417599E2931C0C00038621C /* Assets.xcassets */; };
+		941759A22931C0C00038621C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 941759A12931C0C00038621C /* Preview Assets.xcassets */; };
+		941759B02931C45F0038621C /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = 941759AF2931C45F0038621C /* Note.swift */; };
+		94955CCC29335E40001A5862 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94955CCB29335E40001A5862 /* DetailView.swift */; };
+		94955CCE29336A58001A5862 /* Credits.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94955CCD29336A58001A5862 /* Credits.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		941759972931C0BE0038621C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 941759892931C0BD0038621C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 941759942931C0BE0038621C;
+			remoteInfo = "Notty Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		941759A82931C0C00038621C /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				941759962931C0BE0038621C /* Notty Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		9417598F2931C0BE0038621C /* Notty.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Notty.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		941759952931C0BE0038621C /* Notty Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Notty Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9417599A2931C0BE0038621C /* NottyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NottyApp.swift; sourceTree = "<group>"; };
+		9417599C2931C0BE0038621C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9417599E2931C0C00038621C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		941759A12931C0C00038621C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		941759AF2931C45F0038621C /* Note.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
+		94955CCB29335E40001A5862 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		94955CCD29336A58001A5862 /* Credits.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Credits.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		941759922931C0BE0038621C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		941759882931C0BD0038621C = {
+			isa = PBXGroup;
+			children = (
+				941759AE2931C4460038621C /* Model */,
+				941759992931C0BE0038621C /* Notty Watch App */,
+				941759902931C0BE0038621C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		941759902931C0BE0038621C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9417598F2931C0BE0038621C /* Notty.app */,
+				941759952931C0BE0038621C /* Notty Watch App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		941759992931C0BE0038621C /* Notty Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				9417599A2931C0BE0038621C /* NottyApp.swift */,
+				941759AD2931C42E0038621C /* Views */,
+				9417599E2931C0C00038621C /* Assets.xcassets */,
+				941759A02931C0C00038621C /* Preview Content */,
+			);
+			path = "Notty Watch App";
+			sourceTree = "<group>";
+		};
+		941759A02931C0C00038621C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				941759A12931C0C00038621C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		941759AD2931C42E0038621C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9417599C2931C0BE0038621C /* ContentView.swift */,
+				94955CCB29335E40001A5862 /* DetailView.swift */,
+				94955CCD29336A58001A5862 /* Credits.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		941759AE2931C4460038621C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				941759AF2931C45F0038621C /* Note.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9417598E2931C0BE0038621C /* Notty */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 941759A92931C0C00038621C /* Build configuration list for PBXNativeTarget "Notty" */;
+			buildPhases = (
+				9417598D2931C0BE0038621C /* Resources */,
+				941759A82931C0C00038621C /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				941759982931C0BE0038621C /* PBXTargetDependency */,
+			);
+			name = Notty;
+			productName = Notty;
+			productReference = 9417598F2931C0BE0038621C /* Notty.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		941759942931C0BE0038621C /* Notty Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 941759A52931C0C00038621C /* Build configuration list for PBXNativeTarget "Notty Watch App" */;
+			buildPhases = (
+				941759912931C0BE0038621C /* Sources */,
+				941759922931C0BE0038621C /* Frameworks */,
+				941759932931C0BE0038621C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Notty Watch App";
+			productName = "Notty Watch App";
+			productReference = 941759952931C0BE0038621C /* Notty Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		941759892931C0BD0038621C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					9417598E2931C0BE0038621C = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					941759942931C0BE0038621C = {
+						CreatedOnToolsVersion = 14.1;
+					};
+				};
+			};
+			buildConfigurationList = 9417598C2931C0BD0038621C /* Build configuration list for PBXProject "Notty" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 941759882931C0BD0038621C;
+			productRefGroup = 941759902931C0BE0038621C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9417598E2931C0BE0038621C /* Notty */,
+				941759942931C0BE0038621C /* Notty Watch App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9417598D2931C0BE0038621C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		941759932931C0BE0038621C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				941759A22931C0C00038621C /* Preview Assets.xcassets in Resources */,
+				9417599F2931C0C00038621C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		941759912931C0BE0038621C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9417599D2931C0BE0038621C /* ContentView.swift in Sources */,
+				94955CCC29335E40001A5862 /* DetailView.swift in Sources */,
+				9417599B2931C0BE0038621C /* NottyApp.swift in Sources */,
+				94955CCE29336A58001A5862 /* Credits.swift in Sources */,
+				941759B02931C45F0038621C /* Note.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		941759982931C0BE0038621C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 941759942931C0BE0038621C /* Notty Watch App */;
+			targetProxy = 941759972931C0BE0038621C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		941759A32931C0C00038621C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		941759A42931C0C00038621C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		941759A62931C0C00038621C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Notty Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 7XDPS65F77;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Notty;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.katostevenmubiru.Notty.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Debug;
+		};
+		941759A72931C0C00038621C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Notty Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 7XDPS65F77;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Notty;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.katostevenmubiru.Notty.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Release;
+		};
+		941759AA2931C0C00038621C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7XDPS65F77;
+				INFOPLIST_KEY_CFBundleDisplayName = Notty;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.katostevenmubiru.Notty;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		941759AB2931C0C00038621C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7XDPS65F77;
+				INFOPLIST_KEY_CFBundleDisplayName = Notty;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.katostevenmubiru.Notty;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9417598C2931C0BD0038621C /* Build configuration list for PBXProject "Notty" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				941759A32931C0C00038621C /* Debug */,
+				941759A42931C0C00038621C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		941759A52931C0C00038621C /* Build configuration list for PBXNativeTarget "Notty Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				941759A62931C0C00038621C /* Debug */,
+				941759A72931C0C00038621C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		941759A92931C0C00038621C /* Build configuration list for PBXNativeTarget "Notty" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				941759AA2931C0C00038621C /* Debug */,
+				941759AB2931C0C00038621C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 941759892931C0BD0038621C /* Project object */;
+}
