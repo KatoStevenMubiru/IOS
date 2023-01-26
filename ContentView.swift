@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State var showingInfoView: Bool = false
     
     var body: some View {
         
@@ -212,7 +213,7 @@ struct ContentView: View {
             
                 Button(action: {
                     
-                    print("Info View")
+                    self.showingInfoView = true
                     
                 }){
                     Image(systemName: "info.circle")
@@ -225,7 +226,9 @@ struct ContentView: View {
             .padding()
             .frame(maxWidth: 720)
         }// Zstack
-        
+        .sheet(isPresented: $showingInfoView) {
+            InfoView()
+        }
     }
 }
 
